@@ -18,7 +18,7 @@ class meme2 : AppCompatActivity() {
         }
         tv2 = findViewById(R.id.tv2)
         tv2.setOnClickListener {
-            val intent = Intent(this, meme2::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }
